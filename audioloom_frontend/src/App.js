@@ -6,7 +6,9 @@ function App() {
   return (
     <div>
       <HelloWorld />
-      <HomePage />
+    <HomePage/ >
+       chi c
+    <HomePage />
     </div>
   );
 }
