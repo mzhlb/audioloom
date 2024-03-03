@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #f0f2f5;
 }
 
 .App-logo {
@@ -36,3 +37,28 @@
     transform: rotate(360deg);
   }
 }
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #fff;
+  background-color: #007bff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+

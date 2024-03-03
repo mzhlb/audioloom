@@ -1,0 +1,24 @@
+.home-container {
+    text-align: left; /* Center-aligns the content of the home page */
+    
+  }
+  
+  .app-name {
+    font-size: 48px; /* Large font size for the app name */
+    color: #007bff; /* A nice, vibrant color */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    margin-bottom: 20px; /* Adds some space between the title and the login form */
+    text-align: center;
+  }
+  
+  .app-name:hover {
+    color: #07fd69; /* Slightly darker color on hover */
+    /* text-shadow: 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #007bff, 0 0 14px #007bff; Glow effect */
+  }
+
+  .app-name, .login-form {
+    margin: 10px 0; /* Reduces margin */
+    padding: 20px; /* Adjust padding as needed, ensuring it doesn't cause overflow */
+  }
+  
+  
